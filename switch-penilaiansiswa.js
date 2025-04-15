@@ -13,7 +13,7 @@ nilai.forEach(function(item) {
     case "B":
       console.log(`Grade B: Nilai Baik (${item.Nama})`);
       break;
-    case "D":
+    case "C":
       console.log(`Grade D: Nilai kurang baik (${item.Nama})`);
       break;
     default:
