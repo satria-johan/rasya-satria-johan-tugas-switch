@@ -8,13 +8,13 @@ let nilai = [
 nilai.forEach(function(item) {
   switch (item.grade.toUpperCase()) {
     case "A":
-      console.log(`Grade A: Nilai Baik (${item.Nama})`);
+      console.log(`Grade A: Nilai sangat Baik (${item.Nama})`);
       break;
     case "B":
       console.log(`Grade B: Nilai Baik (${item.Nama})`);
       break;
     case "D":
-      console.log(`Grade C: Nilai Baik (${item.Nama})`);
+      console.log(`Grade D: Nilai kurang baik (${item.Nama})`);
       break;
     default:
       console.log(`Grade ${item.grade}: Nilai Buruk (${item.Nama})`);
